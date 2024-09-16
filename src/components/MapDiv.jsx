@@ -10,20 +10,17 @@ const MapDiv = () => {
   const zoom = 15; // Ajusta el nivel de zoom
 
   return (
-    <div style={{ border: '5px solid #ffffff' }}>
-      <h2 style={{ color: "white" }}>Ubicacion</h2>
-      <MapContainer
-        center={position}
-        zoom={zoom}
-        style={{ height: "200px", width: "70%" }}
-      >
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        />
-        <Marker position={position}></Marker>
-      </MapContainer>
-    </div>
+    <MapContainer
+      center={position}
+      zoom={zoom}
+      style={{ border: 'solid 2px #ffffff', padding: '5px', height: "100%", width: "30%" }}
+    >
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      />
+      <Marker position={position}></Marker>
+    </MapContainer>
   );
 };
 
