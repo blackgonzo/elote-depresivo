@@ -1,0 +1,18 @@
+
+
+   .barrita{
+     background-color: rgba(78, 78, 78, 0.664);
+   }
+   
+   .barrita .nav-link {
+     color: white;
+   }
+   .barrita .navbar-brand {
+     color: white;
+     margin-left: -8%;
+     margin-right: 12%;
+   }
+   
+   .barrita #basic-nav-dropdown{
+     margin-right: -30%;
+   }
