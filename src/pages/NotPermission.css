@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cuerpo{
+   
+    height: 100vh;
+    background-color: black;
+}
+.denegar{
+     color: #ffffff;
+}

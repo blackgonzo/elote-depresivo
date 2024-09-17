@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Routing from "../Routes/Routes";
 
-const LoginPage = () => {
+const LoginAdminPage = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
@@ -24,7 +24,7 @@ const LoginPage = () => {
         localStorage.setItem("Authentication", "true");
         localStorage.setItem('nombre',username);
 
-        Navigate("/paquetes");
+        Navigate("/administracion");
 
       } else {
         setMessage("Invalid username or password");
@@ -72,4 +72,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default LoginAdminPage;

@@ -17,7 +17,8 @@ function navbar_page() {
             <Nav.Link href="/tienda">Tienda</Nav.Link>
             <NavDropdown title="Usuario" id="basic-nav-dropdown">
               <NavDropdown.Item href="/register">Registro</NavDropdown.Item>
-              <NavDropdown.Item href="/login">Login</NavDropdown.Item>
+              <NavDropdown.Item href="/loginadminpage">Login Admin</NavDropdown.Item>
+              <NavDropdown.Item href="/">Login User</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

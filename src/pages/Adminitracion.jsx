@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
 
 
-function Paquetes() {
+function Administracion() {
   const navigate =useNavigate()
 
   function cerrar_sesion(){
@@ -38,4 +38,4 @@ function Paquetes() {
   );
 }
 
-export default Paquetes;
+export default Administracion;

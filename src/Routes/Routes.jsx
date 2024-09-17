@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from '../pages/HomePage'; 
 import RegisterPage from '../pages/RegisterPage'; 
-import LoginPage from '../pages/LoginPage'; 
-import Paquetes from '../pages/Paquetes';
+import LoginAdminPage from '../pages/LoginAdminPage'; 
 import Informacion from '../pages/Informacion';
 import ProtectedRoute from '../ProtectedRoute';
-
+import Administracion from '../pages/Adminitracion';
+import NotPermission from '../pages/NotPermission'
 
 function Routing() {
 
@@ -15,8 +15,9 @@ function Routing() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/paquetes" element={<ProtectedRoute><Paquetes /></ProtectedRoute>}/>
+        <Route path="/notpermission" element={<NotPermission />} />
+        <Route path="/loginadminpage" element={<LoginAdminPage />} />
+        <Route path="/administracion" element={<ProtectedRoute><Administracion /></ProtectedRoute>}/>
         <Route path="/informacion" element={<Informacion />} />
       </Routes>
     </Router>
