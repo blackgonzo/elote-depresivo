@@ -7,6 +7,7 @@ import Informacion from '../pages/Informacion';
 import ProtectedRoute from '../ProtectedRoute';
 import Administracion from '../pages/Adminitracion';
 import NotPermission from '../pages/NotPermission'
+import Tienda from '../pages/Tienda';
 
 function Routing() {
 
@@ -17,6 +18,7 @@ function Routing() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/notpermission" element={<NotPermission />} />
         <Route path="/loginadminpage" element={<LoginAdminPage />} />
+        <Route path="/tienda" element={<Tienda />} />
         <Route path="/administracion" element={<ProtectedRoute><Administracion /></ProtectedRoute>}/>
         <Route path="/informacion" element={<Informacion />} />
       </Routes>

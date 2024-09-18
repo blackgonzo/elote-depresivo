@@ -1,0 +1,36 @@
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.cuerpo {
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+}
+.categorias{
+    width: 40%;
+    height: 300px;
+}
+.primera_sec{
+  display: flex;
+  flex-direction: row;
+  border: solid 4px white;
+  height: 450px;
+  width: 100%;
+  padding: 4px;
+}
+.segunda_sec{
+  display: flex;
+  flex-direction: row;
+  border: solid  4px rgb(56, 120, 37);
+  height: 450px;
+  width: 100%;
+}
+.tercera_sec{
+  display: flex;
+  flex-direction: row;
+  border: solid 4px rgb(182, 38, 38);
+  height: 450px;
+  width: 100%;
+}

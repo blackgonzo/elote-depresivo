@@ -1,0 +1,12 @@
+.card-header-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #000000;
+    border-bottom-color: var(--bs-card-bg);
+    border-radius: 0;
+}
+
+.card {
+    --bs-card-border-radius: 0;
+    --bs-card-inner-border-radius: 0;
+
+}
