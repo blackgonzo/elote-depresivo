@@ -8,7 +8,6 @@ import 'leaflet/dist/leaflet.css';
 function App () {
     return(
         <>
-
         <Routing/> 
         </>     
     );

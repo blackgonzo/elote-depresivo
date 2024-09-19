@@ -1,13 +1,13 @@
 {
   "homepage": "http://blackgonzo.github.io/elote-depresivo",
-  "name": "Elote_services",
+  "name": "elote-depresivo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite", 
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint .", 
     "preview": "vite preview",
     "server": "json-server --watch db.json --port 3001",
     "predeploy": "npm run build",
