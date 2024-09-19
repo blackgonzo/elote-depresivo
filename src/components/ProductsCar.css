@@ -1,0 +1,10 @@
+.carrito_container {
+    width: 50%; /* Ancho del contenedor */
+    height: 80%; /* Alto del contenedor */
+    margin: 4px;
+    overflow-y: scroll; /* Desplazamiento vertical */
+    border: 1px solid #ccc; /* Borde para visualización */
+    padding: 10px; /* Espaciado interno */
+    overflow-x: hidden; 
+  }
+  

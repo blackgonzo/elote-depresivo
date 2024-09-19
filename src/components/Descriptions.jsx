@@ -34,7 +34,7 @@ function Descriptions() {
   };
 
   return (
-    <Card>
+    <Card style={{height: '80%', width: '50%', margin: '4px'}}>
       <Card.Header style={{ backgroundColor: "black" }}>
         <Nav
           variant="tabs"

@@ -12,7 +12,8 @@ import Tienda from '../pages/Tienda';
 function Routing() {
 
   return (
-    <Router>
+    //basename='/elote-depresivo/'
+    <Router >
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<RegisterPage />} />

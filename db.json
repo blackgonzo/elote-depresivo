@@ -1,23 +1,32 @@
 {
   "users": [
     {
-      "id": "408f",
-      "username": "adrian",
-      "password": "adrian"
-    },
-    {
-      "id": "6a15",
-      "username": "d",
-      "password": "d"
-    },
-    {
       "id": "c391",
       "username": "wew",
       "password": "wew"
+    },
+    {
+      "id": "52da",
+      "username": "yh",
+      "password": "yh"
+    },
+    {
+      "id": "be29",
+      "username": "uu",
+      "password": "uu"
     }
-    
   ],
   "products": [
+    {
+      "id": "befe"
+    },
+    {
+      "id": "9880",
+      "name_product": "dd",
+      "description_product": "dd",
+      "price_product": "232",
+      "size_product": "dd",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAEAAQAMBIgACEQEDEQH/xAAxAAABBQEAAAAAAAAAAAAAAAAAAQIDBAUGAQACAwEAAAAAAAAAAAAAAAAAAgEDBAX/2gAMAwEAAhADEAAAAupUao4jfAoDgABXsJTOZK+DjW2203dHPqAbmIpQjFp9LXpoy6ax0Zuis890OrYoD2gAQUtRFTD3EUj/xAAC/9oADAMBAAIAAwAAACGIkABLqQBHsdYADb//xAAC/9oADAMBAAIAAwAAABCU7zySkrwy8dTzw4z/xAArEQABAwIDBAsAAAAAAAAAAAADAgQSAAEFEEIRITJxBhMVIiMxQVFhYnL/2gAIAQIBAT8AIUYRqWRdkpTrVQHrVwnaA4yflUs8Zw/tHDzNZwlq5b6cM3LApQ38IgvWXLfb4vXRLFXjxrcbks1IXGWry98r07wwB7SUid/v3qaYa3YkKoCYS40U1P1o9l+JOagCXfapFDCkal3Tqr//xAAlEQABAwIGAQUAAAAAAAAAAAACAQMEAAUQERITIjJCITFSYuH/2gAIAQMBAT8ARM/RKICT3HFlzbcE6R5HCHLrVxeVm6R2A4iYa/zAkzHKpNqdQFOPJd3fsVTbhOeVkJPdrz8qtM1ZUbl2HF+DEfLU4yhFUaGMd14g6np4fHTX/8QAKxAAAgECBAQEBwAAAAAAAAAAAQIDABEEICExEhNBgQUQIjAjMkJRUmFx/9oACAEBAAE/AvZJAoOp655ulMb3XY/TSs3ehKAPVUOJSV2C30yypbavicRtaprmGTSxrw5l4WHW+STmBDwC5ow497kk/wAvRaaNtyKXFBhwuO9AlG0PesNPzU/Y3yz4dJl136GnjZGIPlhZDHKPt1zSwRy/MKPhqfmaxcKxctUvr7Fh5f/EACQQAQABBAEDBAMAAAAAAAAAAAERACExQSAQYXEwUYHwkaHR/9oACAEBAAE/IfRNlejJnkGVqkVxsvePuKJ22BtUoURuhzsZTgg5pkPumPFaEiCKt/ilMQP3FYfzPjg0R0ixX2iPaoUuNNPYQkIqQ4GwqLmMX9cYhZ+JRZ3Oi3fTw5EbNJZK0I/BTpMneU9BSJC3T//EACEQAQACAgEEAwEAAAAAAAAAAAEAESExQSBRcYEQYZGh/9oACAEBAAE/ED59dWEIhFg94gBYnTxH9gp4r3H65Kmx0facrZqYRsAbTyHk81HowLeETJLsQc1j5uAIBJ2Uw7uy+IoZTQLZ7CnjcIH2KbAhEe1R+Eq4Fp0GD5rjKQ12tYP0DqJOZG/0YQeiKz2S+ccw/EgLeknfgfT8BEiMdkEYTKjNxfU2Vyam8R+rd+IZOkfplfiTLZWDpRiqZYqqYUVq4aH66mItDopk8TFz/9k="
+    }
   ]
-  
 }

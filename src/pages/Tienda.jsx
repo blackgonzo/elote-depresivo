@@ -1,7 +1,8 @@
 import Navbar from "../components/Navbar";
 import React from "react";
 import Descriptions from "../components/Descriptions";
-
+import ProductsSection from "../components/ProductsSection";
+import ProductsCar from "../components/ProductsCar";
 import "./Tienda.css";
 
 const Tienda = () => {
@@ -10,20 +11,16 @@ const Tienda = () => {
       <Navbar />
       <div className="cuerpo">
         <div className="primera_sec">
+          <Descriptions />
 
-          <div className="categorias">
-            <Descriptions />
-          </div>
+          <ProductsCar />
         </div>
 
         <div className="segunda_sec">
-       
+          <ProductsSection />
         </div>
 
-        <div className="tercera_sec">
-    
-        </div>
-
+        <div className="tercera_sec"></div>
       </div>
     </>
   );
