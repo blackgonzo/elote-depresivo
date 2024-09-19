@@ -11,8 +11,7 @@
     "preview": "vite preview",
     "server": "json-server --watch db.json --port 3001",
     "predeploy": "npm run build",
-    "deploy": "npx gh-pages -d dist"
-
+    "deploy": "npx gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
