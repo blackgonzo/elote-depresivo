@@ -1,8 +1,8 @@
-.productos_container {
+.scrollable_productos {
     width: 100%;
     height: 100%;
     overflow-x: scroll; 
-    overflow-y: scroll; 
+    overflow-y: hidden; 
     white-space: nowrap; 
     border: 1px solid #ccc; 
     padding: 10px; 

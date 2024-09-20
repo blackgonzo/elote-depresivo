@@ -12,7 +12,7 @@ const Informacion = () => {
       <div>
         <Navbar />
       </div>
-      <div className="cuerpo">
+      <div className="informacion_cuerpo">
         <div className="info_negocio">
           <h1 className="titulo_info">BIENVENIDOS</h1>
 

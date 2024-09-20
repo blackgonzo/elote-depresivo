@@ -9,18 +9,18 @@ const Tienda = () => {
   return (
     <>
       <Navbar />
-      <div className="cuerpo">
-        <div className="primera_sec">
+      <div className="cuerpo_tienda">
+        <div className="tienda_primera_sec">
           <Descriptions />
 
           <ProductsCar />
         </div>
 
-        <div className="segunda_sec">
+        <div className="tienda_segunda_sec">
           <ProductsSection />
         </div>
 
-        <div className="tercera_sec"></div>
+        <div className="tienda_tercera_sec"></div>
       </div>
     </>
   );

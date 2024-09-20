@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import ProductCreator from "../components/ProductCreator";
 import Navbar from "../components/Navbar";
-import '../pages/Administracion.css'
+import "../pages/Administracion.css";
 
 function Administracion() {
   const navigate = useNavigate();
@@ -10,17 +10,24 @@ function Administracion() {
     localStorage.removeItem("Authentication");
     navigate("/");
   }
-  
+
   return (
     <>
       <Navbar />
-      <div className="cuerpo">
-        <div className="generador"></div>
-        <div>
+      <div className="cuerpo_admin">
+
+
+        <div className="contenedor_formulario_creador">
+
           <ProductCreator />
+         
+
         </div>
-        <div></div>
-      </div>
+
+        <div className="boton_de_salida"> <button onClick={cerrar_sesion}>Cerrar Sesion</button></div>
+        
+      </div> 
+     
     </>
   );
 }

@@ -1,11 +1,30 @@
 html{
-    height: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
   }
-  .cuerpo {
-    height: 100%;
+  .cuerpo_admin {
+      display: grid;
+    grid-template-columns: repeat(4, 30%);
+    display: flex;
+    flex-direction: row;
+    
+    
+    height: 100vh;
     margin: 0;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: rgb(66, 70, 79);
+    border: solid 2px white;
+  
+    
+
+  }
+  .contenedor_formulario_creador{
+    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+   
+ 
+    width: 30%;
+    
   }

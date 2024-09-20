@@ -1,8 +1,6 @@
 // src/components/RegisterPage.js
 import React, { useState } from "react";
-import { registerUser } from "../services/ServicesLogin/Post"; // Ensure this is the correct import
 import { useNavigate } from "react-router-dom";
-import Navbar from "../components/Navbar"; // If not used, consider removing
 import { RegisterProduct } from "../services/ServicesCar/PostProduct";
 
 const ProductCreator = () => {
@@ -37,79 +35,89 @@ const ProductCreator = () => {
         size_product,
         image // Pass the image
       );
-      
+
       set_message("Producto Agregado con éxito");
-   
     } catch (error) {
       set_message("Error agregando el producto");
     }
   };
 
   return (
-    <div className="cuadro_registro" style={{ color: 'white' }}>
-      <h2>Agregar Producto</h2>
+    <div className="boostrap_product_creator" style={{ width: "50%" }}>
+      <h3>Agregar Producto</h3>
 
       <form onSubmit={handleRegister}>
         <div>
           <br />
-          <label>
-            Nombre del producto
-            <input
-              type="text"
-              value={name_product}
-              onChange={(event) => set_name_product(event.target.value)}
-              required
-            />
-          </label>
+
+          <input
+            placeholder="Nombre"
+            type="text"
+            value={name_product}
+            onChange={(event) => set_name_product(event.target.value)}
+            required
+          />
         </div>
 
         <div>
           <br />
-          <label>
-            Descripción del producto:
-            <input
-              type="text"
-              value={description_product}
-              onChange={(e) => set_description_product(e.target.value)}
-              required
-            />
-          </label>
+
+          <input
+            placeholder="Descripcion"
+            type="text"
+            value={description_product}
+            onChange={(e) => set_description_product(e.target.value)}
+            required
+          />
         </div>
 
         <div>
           <br />
-          <label>
-            Tamaño del canvas
-            <input
-              type="text"
-              value={size_product}
-              onChange={(e) => set_size_product(e.target.value)}
-              required
-            />
-          </label>
+
+          <input
+            placeholder="Imagen"
+            type="text"
+            value={size_product}
+            onChange={(e) => set_size_product(e.target.value)}
+            required
+          />
         </div>
 
         <div>
           <br />
-          <label>
-            Precio del producto:
-            <input
-              type="number"
-              value={price_product}
-              step="0.01"
-              min="0"
-              onChange={(e) => set_price_product(e.target.value)}
-              required
-            />
-          </label>
+
+          <input
+            placeholder="precio"
+            type="number"
+            value={price_product}
+            step="0.01"
+            min="0"
+            onChange={(e) => set_price_product(e.target.value)}
+            required
+          />
         </div>
+        <br />
 
         <div className="fotillo">
-          <label>Imagen del producto</label>
           {image ? (
-            <img src={image} alt="Product Preview" />
+            <img
+              className="product-image"
+              src={image}
+              alt="Product Preview"
+              style={{ height: "100%", width: "200px", objectFit: "cover" }}
+            />
           ) : (
-            <div>
+            <div
+              className="espacio_imagen"
+              style={{
+                height: "120px",
+                width: "325px",
+                border: "solid 2px white",
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <label htmlFor="imagen_producto">inserte imagen</label>
               <input
                 id="fileupload"
                 className="hidden"
@@ -117,14 +125,12 @@ const ProductCreator = () => {
                 onChange={convert2base64}
                 accept="image/*" // Optional: restrict file types
               />
-              <label htmlFor="fileupload" style={{ cursor: 'pointer' }}>
-                Subir Archivo
-              </label>
             </div>
           )}
         </div>
-
+        <br />
         <button type="submit">Agregar Producto</button>
+        <br />
         {message && <p>{message}</p>}
       </form>
     </div>

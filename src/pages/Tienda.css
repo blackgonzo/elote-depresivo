@@ -3,34 +3,38 @@ html{
   margin: 0;
   padding: 0;
 }
-.cuerpo {
+.cuerpo_tienda {
   height: 100%;
   margin: 0;
   padding: 10px;
+  background-color: rgb(80, 86, 91);
 }
 .categorias{
     width: 40%;
     height: 80%;
 }
-.primera_sec{
+.tienda_primera_sec{
   display: flex;
   flex-direction: row;
-  border: solid 4px white;
+  border: solid 4px rgb(255, 255, 255);
   height: 450px;
   width: 100%;
   padding: 4px;
+  margin-bottom: 10px;
 }
-.segunda_sec{
+.tienda_segunda_sec{
   display: flex;
   flex-direction: row;
-  border: solid  4px rgb(56, 120, 37);
+  border: solid  4px rgb(255, 255, 255);
   height: 450px;
   width: 100%;
+  margin-bottom: 10px;
 }
-.tercera_sec{
+.tienda_tercera_sec{
   display: flex;
   flex-direction: row;
-  border: solid 4px rgb(182, 38, 38);
+  border: solid 4px rgb(255, 255, 255);
   height: 450px;
   width: 100%;
+  margin-bottom: 10px;
 }
